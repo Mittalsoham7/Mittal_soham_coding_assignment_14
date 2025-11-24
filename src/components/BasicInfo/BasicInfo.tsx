@@ -26,8 +26,12 @@ const BasicInfo: React.FC<BasicInfoProps> = ({ name, email, description }) => {
   return (
     <Container>
       <Title>Basic Information</Title>
-      <InfoText><strong>Name:</strong> {name}</InfoText>
-      <InfoText><strong>Email:</strong> {email}</InfoText>
+      <InfoText>
+        <strong>Name:</strong> {name}
+      </InfoText>
+      <InfoText>
+        <strong>Email:</strong> {email}
+      </InfoText>
       <InfoText>{description}</InfoText>
     </Container>
   );

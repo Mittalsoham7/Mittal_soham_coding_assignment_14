@@ -59,7 +59,9 @@ const Resources: React.FC<ResourcesProps> = ({ resources }) => {
           <div>
             <ResourceTitle>{title}</ResourceTitle>
             <ResourceSummary>{summary}</ResourceSummary>
-            <ResourceLink href={link} target="_blank" rel="noopener noreferrer">{link}</ResourceLink>
+            <ResourceLink href={link} target="_blank" rel="noopener noreferrer">
+              {link}
+            </ResourceLink>
           </div>
         </ResourceItem>
       ))}

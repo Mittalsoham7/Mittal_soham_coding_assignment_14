@@ -51,12 +51,26 @@ const Work: React.FC<WorkProps> = ({ items }) => {
       {items.map(({ title, description, image, link, techList }, index) => (
         <WorkItem key={index}>
           <WorkTitle>
-            {link ? <a href={link} target="_blank" rel="noopener noreferrer">{title}</a> : title}
+            {link ? (
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                {title}
+              </a>
+            ) : (
+              title
+            )}
           </WorkTitle>
-          {image && <img src={image} alt={title} style={{ maxWidth: '200px', marginBottom: '0.5rem' }} />}
+          {image && (
+            <img
+              src={image}
+              alt={title}
+              style={{ maxWidth: '200px', marginBottom: '0.5rem' }}
+            />
+          )}
           <WorkDescription>{description}</WorkDescription>
           <WorkTechList>
-            {techList.map((tech, idx) => <li key={idx}>{tech}</li>)}
+            {techList.map((tech, idx) => (
+              <li key={idx}>{tech}</li>
+            ))}
           </WorkTechList>
         </WorkItem>
       ))}

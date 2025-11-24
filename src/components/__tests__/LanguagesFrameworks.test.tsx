@@ -9,14 +9,15 @@ const items = [
   },
   {
     title: 'TypeScript',
-    description: 'A typed superset of JavaScript that compiles to plain JavaScript.',
+    description:
+      'A typed superset of JavaScript that compiles to plain JavaScript.',
   },
 ];
 
 describe('LanguagesFrameworks component', () => {
   it('renders items correctly', () => {
     render(<LanguagesFrameworks items={items} />);
-    items.forEach(item => {
+    items.forEach((item) => {
       expect(screen.getByText(item.title)).toBeInTheDocument();
       expect(screen.getByText(item.description)).toBeInTheDocument();
     });

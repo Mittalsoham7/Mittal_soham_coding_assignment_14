@@ -38,7 +38,7 @@ This is a React portfolio website built using TypeScript, styled-components, and
    ```bash
    cd ~/Desktop/coding_assignment_14
    ```
-   
+
 3. Install dependencies:
 
    ```bash

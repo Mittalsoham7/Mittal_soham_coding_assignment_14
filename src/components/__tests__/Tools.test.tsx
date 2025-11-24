@@ -16,7 +16,7 @@ const tools = [
 describe('Tools component', () => {
   it('renders tool items correctly', () => {
     render(<Tools tools={tools} />);
-    tools.forEach(tool => {
+    tools.forEach((tool) => {
       expect(screen.getByText(tool.title)).toBeInTheDocument();
       expect(screen.getByText(tool.description)).toBeInTheDocument();
     });

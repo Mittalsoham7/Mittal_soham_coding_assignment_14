@@ -3,7 +3,10 @@ import { render, screen } from '@testing-library/react';
 import DeveloperSetup from '../DeveloperSetup/DeveloperSetup';
 
 const items = [
-  { title: 'VSCode', description: 'Visual Studio Code with recommended extensions' },
+  {
+    title: 'VSCode',
+    description: 'Visual Studio Code with recommended extensions',
+  },
   { title: 'Terminal', description: 'iTerm2 with oh-my-zsh' },
   { title: 'Editor Font', description: 'Fira Code, 14pt' },
 ];

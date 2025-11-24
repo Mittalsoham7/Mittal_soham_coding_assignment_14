@@ -36,16 +36,19 @@ The portfolio website includes the following sections:
 ### Local Development
 
 1. Clone or download the project:
+
    ```bash
    cd ~/Desktop/coding_assignment_14
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm start
    ```
@@ -88,6 +91,7 @@ docker run -d -p 5575:5575 --name mittal_soham_coding_assignment14 mittal_soham_
 ### Access the Application
 
 Open your browser and navigate to:
+
 - `http://localhost:5575`
 - or `http://127.0.0.1:5575`
 
@@ -170,7 +174,7 @@ The pipeline is configured in `.github/workflows/ci-cd.yml`.
 ✅ Working directory "mittal_soham_final_site"  
 ✅ Includes all required portfolio sections  
 ✅ CI/CD pipeline for automated testing and builds  
-✅ Comprehensive README with setup instructions  
+✅ Comprehensive README with setup instructions
 
 ## Author
 
@@ -179,4 +183,5 @@ Soham Mittal
 ## License
 
 This project is for educational purposes as part of a coding assignment.
+
 # Mittal_soham_coding_assignment_14

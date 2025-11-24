@@ -16,7 +16,7 @@ const skillItems = [
 describe('Skills component', () => {
   it('renders skill items correctly', () => {
     render(<Skills skills={skillItems} />);
-    skillItems.forEach(skill => {
+    skillItems.forEach((skill) => {
       expect(screen.getByText(skill.name)).toBeInTheDocument();
       expect(screen.getByText(skill.description)).toBeInTheDocument();
     });

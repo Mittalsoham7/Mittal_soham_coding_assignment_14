@@ -21,10 +21,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:ci": "react-scripts test --watchAll=false --coverage --passWithNoTests",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .ts,.tsx,.js",
+    "lint:check": "eslint . --ext .ts,.tsx,.js --max-warnings=0",
     "lint:fix": "eslint . --ext .ts,.tsx,.js --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "type-check": "tsc --noEmit",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [

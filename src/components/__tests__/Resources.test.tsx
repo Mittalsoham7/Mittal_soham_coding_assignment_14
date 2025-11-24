@@ -20,7 +20,7 @@ const resources = [
 describe('Resources component', () => {
   it('renders resource items correctly', () => {
     render(<Resources resources={resources} />);
-    resources.forEach(resource => {
+    resources.forEach((resource) => {
       expect(screen.getByText(resource.title)).toBeInTheDocument();
       expect(screen.getByText(resource.summary)).toBeInTheDocument();
     });
