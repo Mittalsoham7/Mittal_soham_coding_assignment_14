@@ -27,6 +27,9 @@ jobs:
       - name: Run lint
         run: npm run lint
 
+      - name: Run Prettier
+        run: prettier --write
+
       - name: Run tests
         run: npm test -- --watchAll=false --coverage
 
