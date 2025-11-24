@@ -11,16 +11,16 @@ function App() {
   const workItems = [
     {
       title: 'Decor360',
-      description: 'Description of Project A.',
+      description: 'Home Decor Company.',
       image: '',
       link: 'https://Decor360.ca',
-      techList: ['React', 'TypeScript', 'CSS'],
+      techList: ['HTML', 'Javascript', 'CSS'],
     },
     {
-      title: 'Project B',
-      description: 'Description of Project B.',
+      title: 'Boujee Restaurant and Bar',
+      description: 'Fine-Dining Restaurant and Bar.',
       image: '',
-      link: 'https://example.com/project-b',
+      link: 'https://boujeerestaurant.ca/',
       techList: ['Node.js', 'Express', 'MongoDB'],
     },
   ];
