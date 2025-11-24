@@ -10,10 +10,10 @@ import DeveloperSetup from './components/DeveloperSetup';
 function App() {
   const workItems = [
     {
-      title: 'Project A',
+      title: 'Decor360',
       description: 'Description of Project A.',
       image: '',
-      link: 'https://example.com/project-a',
+      link: 'https://Decor360.ca',
       techList: ['React', 'TypeScript', 'CSS'],
     },
     {
@@ -58,8 +58,8 @@ function App() {
   return (
     <div className="App">
       <BasicInfo
-        name="John Doe"
-        email="john.doe@example.com"
+        name="Soham Mittal"
+        email="Mittalsoham77@gmail.com"
         description="A passionate developer with experience in React and TypeScript."
       />
       <Work items={workItems} />
