@@ -6,7 +6,7 @@ const Container = styled.section`
   background-color: #d1ecf1;
   border-radius: 8px;
   margin-bottom: 1rem;
-`;
+`
 
 const Title = styled.h2`
   margin-bottom: 1rem;
